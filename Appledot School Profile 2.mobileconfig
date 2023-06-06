@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HasRemovalPasscode</key>
+	<true/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IPSec</key>
+			<dict>
+				<key>AuthenticationMethod</key>
+				<string>SharedSecret</string>
+				<key>LocalIdentifierType</key>
+				<string>KeyID</string>
+			</dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>1</integer>
+			</dict>
+			<key>PPP</key>
+			<dict>
+				<key>AuthName</key>
+				<string>vpn</string>
+				<key>AuthPassword</key>
+				<string>vpn</string>
+				<key>CommRemoteAddress</key>
+				<string>219.100.37.137</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>VPN設定を構成します</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.vpn.managed.3573D271-5B19-40A8-9909-46DA13FD8DC3</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>3573D271-5B19-40A8-9909-46DA13FD8DC3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Proxies</key>
+			<dict>
+				<key>HTTPEnable</key>
+				<integer>0</integer>
+				<key>HTTPSEnable</key>
+				<integer>0</integer>
+			</dict>
+			<key>UserDefinedName</key>
+			<string>Appledot VPN</string>
+			<key>VPNType</key>
+			<string>L2TP</string>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>プロファイル削除用パスワードを構成します</string>
+			<key>PayloadDisplayName</key>
+			<string>プロファイル削除</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.profileRemovalPassword.7F7984F1-2048-4B05-83C1-D34902F2EDAA</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>7F7984F1-2048-4B05-83C1-D34902F2EDAA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>1234</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Appledot School Profile 2</string>
+	<key>PayloadIdentifier</key>
+	<string>Appledot.2272CBE8-A895-4613-932F-E7D4DFB49AE2</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>DE4ED186-22A7-46EB-B4F4-E663D6C107EB</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
